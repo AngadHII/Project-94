@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>KWITTER WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="Kwitter_Room.css">
+</head>
+<body>
+<center>
+    <div class="btn btn-info logout_div">
+    <h2 id="name"></h2>
+    <button class="btn btn-danger logout_button" onclick="logout()">Logout</button>
+</div>
+
+<div class="addRoom_div">
+    <h3>ROOM NAME</h3>
+    <input type="text" id="addRoom_input" class="form-control" placeholder="Create a room name and enter it here">
+    <br>
+    <button class="btn btn-success" onclick="addRoom()">Create Room</button>
+<br><br>
+<h3>AVAILABLE ROOMS</h3>
+<div id="output"></div>
+</div>
+
+</center>
+<script src="Kwitter_Room.js"></script>
+</body>
+</html>

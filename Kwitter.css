@@ -1,0 +1,34 @@
+body{
+  background-size: cover;
+}
+
+.heading{
+  width: 100%;
+  color: blue;
+  font-size: 35px;
+  margin: 0px;
+  font-family:lucida console;
+  }
+
+  .note{
+    font-size: 18px;
+    color: black;
+    font-family: cursive;
+    }
+
+    .login_div{
+      border-radius: 20px;
+      margin-left: 300px;
+      margin-top: 140px;
+      font-size: 23px;
+      font-family:lucida console ;
+    }
+
+    .smile{
+      color: blue;
+    }
+
+    .happy{
+      font-family: cursive;
+      color: black;
+    }
